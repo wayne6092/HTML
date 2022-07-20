@@ -1,0 +1,2 @@
+// JavaScript Document/* This is an example of footer navigational text hyperlinks *//* Use the script tag to reference this external file from within your HTML document in the head section */
+function footerNav(){document.write("<div style='text-align:center;'>");document.write("<a href='default.html'>Homepage</a> | <a href='page1.html'>Page 1</a> | <a href='page2.html'>Page 2</a> | <a href='page3.html'>Page 3</a>");document.write("</div>");}

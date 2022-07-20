@@ -1,0 +1,92 @@
+/* CSS Style Sheet for the Week 4 Homework Assignment */
+/* Wayne Williams */
+
+/* Body style */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+/* Table style */
+table {
+  border: none;
+  width: 750px;
+  padding: 0;
+  margin: auto;
+}
+/* Heading style */
+h1 {
+  color: #0066cc; /* Cool Blue */
+}
+/* Heading style */
+h3 {
+  color: #0066cc; /* Cool Blue */
+  background-color: #eee; /* Light Gray */
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 150px;
+}
+/* Heading style */
+h5 {
+  color: #000000; /* Black */
+  font-style: italic;
+}
+/* Horizontal rule style */
+hr {
+  border: none;
+  border-top: 1px dotted #000000; /* Dotted top border */
+  height: 1px;
+}
+/* Image style */
+img {
+  float: right;
+  border: 1px solid #000000;
+  border-right: 3px solid #000000;/* Impression of shadow on image element */
+  border-bottom: 3px solid #000000;
+  margin: 0px 5px 10px 10px; /* Short hand margin config: order is top, right, bottom, left (TRBL) */
+}
+/* Hyperlink styles */
+a:link {
+  color: #0066cc; /* Cool Blue */
+}
+/* Hyperlink style link after visit */
+a:visited {
+  color: #0066cc; /* Cool Blue */
+}
+/* Hyperlink style link hovering */
+a:hover {
+  text-decoration: none;
+  color: #ff9900; /* Yellow */
+  font-weight: bold;
+}
+/* Hyperlink style link active, long mouse click (Held click) */
+a:active {
+  text-decoration: underline;
+  color: #0066cc; /* Cool Blue */
+}
+/*Travel tip class*/
+.travel_tip {
+  background-color: #ff9900; /* Yellow */
+  padding: 5px 5px 5px 5px;
+  border: 1px black solid;
+  margin: 40px 5px 5px 0px;
+}
+/* Quote class */
+.quote {
+  font-style: italic;
+  margin: 10px 10px 10px 10px;
+  color: #666666;
+}
+/* Copyright ID */
+#copyright {
+  font-size: 9px;
+  font-style: italic;
+  text-align: center;
+}
+/*list styles*/
+ul li{
+  list-style-type: square;
+  color: #666666;
+  list-style-position: inside;
+
+}
+/*body {background-color:#eaeaea;}

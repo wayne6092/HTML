@@ -1,0 +1,89 @@
+/*Style sheet for project 2
+Student Name: Wayne williams
+Class: ITWP itwp1000
+School: Macomb Community College*/
+
+header, nav, main, footer, figure, figcaption { display: block; }
+* {box-sizing: border-box; }
+body { font-family: Verdana, Arial, sans-serif;
+       background-color: #FFFFFF;
+}
+#wrapper { background-color: #00005D;
+           color: #ffffff;
+           width: 80%;
+		       margin: auto;
+           min-width:850px;
+}
+header { background-color: #2DC69F;
+        color: #00005D;
+        font-size: 100%;
+        padding: 10px 172px 10px 10px;
+		    background-repeat: no-repeat;
+}
+nav {float: right;
+	   width: 20%;
+	   letter-spacing:0.1em;
+	   font-weight: bold;
+     text-align: center;
+
+}
+nav ul { list-style-type: none;
+          margin: 0;
+          padding: 0;
+}
+nav a { text-decoration: none;
+         display: block;
+	     padding: 20px;
+         background-color: #009900;
+	     border-bottom: 1px solid #ffffff;
+         background-repeat: no-repeat;
+         background-position: right 0;
+}
+nav a:link    { color: #ffffff;  }
+nav a:visited { color: #eaeaea; }
+nav a:hover   { background-color: #eaeaea;
+                color: #869dc7;
+                background-position: right -100px;	}
+
+main { background-color: #ffffff;
+       color: #00005D;
+		   padding: 10px 20px;
+	     overflow: auto;
+}
+h1 {   margin-bottom: 20px;
+       text-align: center;
+}
+h2 {   color: #869dc7;
+       text-align: center;
+       font-family: arial, sans-serif;
+}
+
+img { height: auto;
+      padding: 15px 5px 15px 25px}
+
+
+footer {font-size:70%;
+         text-align: center;
+         padding: 10px;
+         background-color: #2DC69F;
+		     clear: both;
+}
+li {list-style-type:none;
+
+
+}
+
+    @media only screen and (max-width: 1024px) {
+                body { margin: 0; padding: 0; }
+                #wrapper { width: auto; margin: 0; }
+    		        h1 { font-size: 200%; }
+    			      #demo { flex-direction: column;
+                }
+    		        nav ul { display: flex;
+                         flex-direction: row;
+    				             justify-content: center;
+    			}
+    			      nav li { padding: 0 0.5em;
+    				             font-size: 1.2em;
+    			}
+}

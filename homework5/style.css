@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* Web Project 1 Assignment
+Author: Wayne Allen Williams Jr.
+Course: ITWP 1000
+File: style.css
+*/
+#wrapper { background-color: #00005D;
+           color: #00005D;
+           width: 80%;
+		       margin: auto;
+           min-width:850px;
+}
+header { background-color: #EEFFDD;
+        color: #00005D;
+        font-size: 150%;
+        padding: 10px 100px 10px 155px;
+		background-repeat: no-repeat;
+}
+nav { float: right;
+	   width: 150px;
+	   letter-spacing:0.1em;
+	   font-weight: bold;
+
+}
+nav ul { list-style-type: none;
+          margin: 0;
+          padding: 0;
+}
+nav a { text-decoration: none;
+         display: block;
+	     padding: 20px;
+         background-color: #009900;
+	     border-bottom: 1px solid #00005D;
+         background-repeat: no-repeat;
+         background-position: right 0;
+}
+nav a:link    { color: #ffffff;  }
+nav a:visited { color: #eaeaea; }
+nav a:hover   { background-color: #eaeaea;
+                color: #869dc7;
+                background-position: right -100px;	}
+main { background-color: #ffffff;
+           color: #00005D;
+		   padding: 10px 20px;
+	       overflow: auto;
+}
+h1 { margin-bottom: 20px; }
+h2 { color: #869dc7;
+     font-family: arial, sans-serif;
+}
+#floatright { margin: 10px;
+             float: right;
+}
+footer {font-size:70%;
+         text-align: center;
+         padding: 10px;
+         background-color: #EEFFDD;
+		 clear: both;
+}
+table {
+    margin: auto;
+    border: 5px solid #3f2a14;
+    width: 100%;
+    border-spacing: 0;
+    }
+/* main table tag */
+
+
+
+td, th {
+    border-style: none;
+    padding: 0.5em;
+    width:auto;
+    }
+
+tfoot td {
+    font-size: 9px;
+    font-style: italic;
+    text-align: center;
+    }
+
+tr:nth-of-type(even) {
+    background-color: #eaeaea;
+    }
+
+thead:first-of-type {
+    background-color: #3f2a14;
+    color:#FFF;
+    }
+
+/* caption tag */
+caption {
+    font-family: Impact, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    font-weight: bold;
+    font-size: 1.75em;
+    padding-bottom: 0.5em;
+    }
+
+
+/* classes */
+.responsive {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #51471A;
+    border-radius: 10px;
+    }
+/* responsive image class */
+
+
+td.price {
+    white-space: nowrap;
+    }
+
+td.specialty {
+    white-space: nowrap;
+    }
+
+/* ID */
+
+#validation {
+    text-align: center;
+    }
+
+/* media query that hides the image when the screen size is @ 550 pixels or lower */
+@media only all and (max-width: 550px) {
+  img {
+    display: none;
+  }
+}
